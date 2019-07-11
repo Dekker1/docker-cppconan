@@ -8,6 +8,7 @@ RUN apt-get update && \
       make \
       python3 \
       python3-pip \
+      python3-venv \
       subversion \
       zlib1g \
     && apt-get clean \
